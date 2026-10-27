@@ -22,20 +22,6 @@ The lab uses a VirtualBox NAT Network to support communication between virtual m
 - Document the installation process and troubleshooting steps.
 - Prepare the lab for future cybersecurity experiments.
 
-## 🛡️ Lab Use Cases
-
-This virtual environment can support educational exercises involving:
-
-- Network discovery and reconnaissance
-- Port scanning with Nmap
-- Network traffic analysis
-- Basic vulnerability assessment
-- Web application security testing
-- Cybersecurity tool familiarization
-- Safe testing against intentionally vulnerable lab machines
-
-**Ethical use:** All testing must be limited to systems you own or have explicit authorization to assess.
-
 ## 🏗️ Lab Architecture
 
 The lab consists of a host computer running VirtualBox, with Kali Linux connected to a dedicated virtual NAT Network.
