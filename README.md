@@ -192,9 +192,6 @@ This lab is intended for cybersecurity education and authorized testing only.
 
 Umm e habiba
 
-🔗 https://github.com/Habiba-khan155
-
-💼  www.linkedin.com/in/umm-e-habiba1556
 [GitHub Profile](https://github.com/Habiba-khan155)
 
 [Linkedin Profile](www.linkedin.com/in/umm-e-habiba1556)
