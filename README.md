@@ -1,4 +1,4 @@
-# 🔐 Cybersecurity Home Lab Setup with Kali Linux & VirtualBox
+<img width="367" height="280" alt="image" src="https://github.com/user-attachments/assets/5492f68b-7773-4f2d-87d1-1007392be8bb" /># 🔐 Cybersecurity Home Lab Setup with Kali Linux & VirtualBox
 
 Building a virtual lab environment for cybersecurity learning, network analysis, and ethical penetration testing.
 
@@ -66,11 +66,6 @@ Additional virtual machines can be connected to the same network for isolated, a
 Install 7-Zip if needed to extract the downloaded Kali virtual machine archive.
 
 Download: https://www.virtualbox.org/wiki/Downloads
-## 📸 Kali Linux Configuration
-
-![Kali Linux Screenshot](virtualboxsetup.png)
-
-virtualboxsetup.png
 
 ### Step 2: Set Up VirtualBox
 
@@ -78,15 +73,24 @@ Download and install Oracle VirtualBox. Confirm that hardware virtualization is 
 
 Download: https://www.virtualbox.org/wiki/Downloads
 
+## 📸 virtual box Configuration
+
+![Kali Linux Screenshot](virtualboxsetup.png)
+
 ### Step 3: Configure a Dedicated Virtual Network
 
 Create a NAT Network in VirtualBox with the following settings:
 
+## 📸 Network setup
+
+![Kali Linux Screenshot](network.png)
 
 - **Network Name:** NatNetwork
 - **IPv4 Prefix:** 10.0.0.0/24
 - **DHCP:** Enabled
 - **IPv6:** Disabled
+
+![Kali Linux Screenshot](natnetworkipv4.png)
 
 A NAT Network can allow connected virtual machines to communicate with one another and access external networks through network address translation.
 
@@ -95,6 +99,10 @@ A NAT Network can allow connected virtual machines to communicate with one anoth
 Download the appropriate Kali Linux VirtualBox image from the official website and import it into VirtualBox.
 
 Download: https://www.kali.org/get-kali/
+
+## 📸 Kali Linux Configuration
+
+![Kali Linux Screenshot](kali_setup.png)
 
 Configure the virtual machine:
 
@@ -106,14 +114,17 @@ Configure the virtual machine:
 
 A shared folder may also be configured for transferring files between the host and the virtual machine. Use appropriate permissions when sharing files.
 
+## 📸 Kali Linux complete setup
+
+![Kali Linux Screenshot](kali page.png)
+
 ### Step 5: Configure Network Connectivity
 
 Inspect the network interfaces and IP configuration from Kali Linux:
 
-```bash
-ip a
-ip route
-```
+## 📸 Network connectivity configuration
+
+![Kali Linux Screenshot](edit_network.png)
 
 If a static IP address is required, configure it through the appropriate NetworkManager connection settings.
 
@@ -125,11 +136,19 @@ Example target configuration:
 
 Ensure the chosen address does not conflict with another device or a DHCP-assigned address. The gateway and DNS settings must match the actual virtual network configuration.
 
+## 📸 address and DNS setup
+
+![Kali Linux Screenshot](add_address.png)
+
 ### Step 6: Create a Baseline Snapshot
 
 Once the operating system and network configuration are working, create a snapshot in VirtualBox.
 
-**Suggested snapshot name:** `Kali-Baseline-Setup`
+## 📸 snapshot
+
+![Kali Linux Screenshot](snapshot.png)
+
+**Suggested snapshot name:** `Kali Network Setup`
 
 This snapshot provides a recovery point before future experiments or configuration changes.
 
@@ -148,4 +167,43 @@ Run the following checks to confirm the basic lab configuration.
 | Snapshot recovery | Restore the baseline snapshot | Verify recovery capability |
 
 *Expected results depend on the actual network settings. A failed ping does not always mean the network is broken because ICMP traffic may be blocked.*
-l .
+ 
+## 📸 command
+
+![Kali Linux Screenshot](command.png)
+
+## 🔒 Security and Responsible Use
+
+This lab is intended for cybersecurity education and authorized testing only.
+
+- Use intentionally vulnerable machines for practice.
+- Keep experimental targets within the intended lab network.
+- Verify network exposure before introducing additional VMs.
+- Take snapshots before significant changes.
+- Never test systems without permission.
+
+## 🔗 Official Tools and Resources
+
+- [7-Zip Downloads](https://7-zip.org/download)
+- [Oracle VirtualBox Downloads](https://www.virtualbox.org/wiki/Downloads)
+
+
+## 👤 Author
+
+Umm e habiba
+
+GitHub: `https://github.com/Habiba-khan155`
+
+LinkedIn: `www.linkedin.com/in/umm-e-habiba1556`
+
+## 📚 Project Details
+
+- **Project:** Cybersecurity Lab Environment Setup
+- **Module:** Virtualization and Linux Networking
+- **Week:** 01
+- **Platform:** GitHub
+- **Tools:** VirtualBox, Kali Linux, 7-Zip
+
+---
+
+*This repository documents the initial lab setup and can be extended with future network security and penetration-testing exercises.*
