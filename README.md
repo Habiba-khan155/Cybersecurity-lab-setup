@@ -1,4 +1,4 @@
-/># 🔐 Cybersecurity Home Lab Setup with Kali Linux & VirtualBox
+# 🔐 Cybersecurity Home Lab Setup with Kali Linux & VirtualBox
 
 Building a virtual lab environment for cybersecurity learning, network analysis, and ethical penetration testing.
 
@@ -192,9 +192,13 @@ This lab is intended for cybersecurity education and authorized testing only.
 
 Umm e habiba
 
-GitHub: `https://github.com/Habiba-khan155`
+🔗 https://github.com/Habiba-khan155
 
-LinkedIn: `www.linkedin.com/in/umm-e-habiba1556`
+💼  www.linkedin.com/in/umm-e-habiba1556
+[GitHub Profile](https://github.com/Habiba-khan155)
+
+[Linkedin Profile](www.linkedin.com/in/umm-e-habiba1556)
+
 
 ## 📚 Project Details
 
