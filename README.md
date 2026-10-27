@@ -35,13 +35,10 @@ Additional virtual machines can be connected to the same network for isolated, a
 | Host Operating System | Windows 10 |
 | Virtualization Software | Oracle VirtualBox 7.2 |
 | Security Distribution | Kali Linux |
-| Memory Allocated to Kali | 2 GB |
 | Network Mode | NAT Network |
 | Network Prefix | 10.0.0.0/24 |
-| Kali IPv4 Address | 10.0.0.2/24 |
 | Default Gateway | 10.0.0.1 |
 | DNS Server | 8.8.8.8 |
-| Future Lab VM Addresses | 10.0.0.3–10.0.0.99 |
 
 *Note: These values describe the planned lab configuration. Verify them against your actual VirtualBox and Kali settings before publishing.*
 
@@ -96,8 +93,7 @@ Configure the virtual machine:
 - **Attached To:** NAT Network
 - **Network:** NatNetwork
 - **Adapter Type:** Intel PRO/1000 MT Desktop
-- **Memory:** 2048 MB
-
+- 
 A shared folder may also be configured for transferring files between the host and the virtual machine. Use appropriate permissions when sharing files.
 
 ## 📸 Kali Linux complete setup
@@ -148,9 +144,6 @@ Run the following checks to confirm the basic lab configuration.
 | IP configuration | `ip a` | Inspect assigned IP addresses |
 | Routing table | `ip route` | Verify the default route |
 | Gateway connectivity | `ping -c 4 10.0.0.1` | Test reachability of the gateway |
-| External connectivity | `ping -c 4 8.8.8.8` | Check basic IP connectivity |
-| DNS resolution | `nslookup kali.org` | Test DNS lookup |
-| Nmap installation | `nmap --version` | Confirm Nmap is installed |
 | Snapshot recovery | Restore the baseline snapshot | Verify recovery capability |
 
 *Expected results depend on the actual network settings. A failed ping does not always mean the network is broken because ICMP traffic may be blocked.*
@@ -190,7 +183,7 @@ Umm e habiba
 - **Module:** Virtualization and Linux Networking
 - **Week:** 01
 - **Platform:** GitHub
-- **Tools:** VirtualBox, Kali Linux, 7-Zip
+- **Tools:** VirtualBox, Kali Linux 
 
 ---
 
