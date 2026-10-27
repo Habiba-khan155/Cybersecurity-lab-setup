@@ -99,7 +99,7 @@ A shared folder may also be configured for transferring files between the host a
 ## 📸 Kali Linux complete setup
 
 
-![Kali Linux Screenshot](kalipage.png)
+![Kali Linux Screenshot](kali_page.png)
 
 ### Step 5: Configure Network Connectivity
 
