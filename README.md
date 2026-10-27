@@ -1,4 +1,4 @@
-<img width="367" height="280" alt="image" src="https://github.com/user-attachments/assets/5492f68b-7773-4f2d-87d1-1007392be8bb" /># 🔐 Cybersecurity Home Lab Setup with Kali Linux & VirtualBox
+/># 🔐 Cybersecurity Home Lab Setup with Kali Linux & VirtualBox
 
 Building a virtual lab environment for cybersecurity learning, network analysis, and ethical penetration testing.
 
