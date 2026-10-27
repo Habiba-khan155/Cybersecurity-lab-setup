@@ -66,6 +66,7 @@ Additional virtual machines can be connected to the same network for isolated, a
 Install 7-Zip if needed to extract the downloaded Kali virtual machine archive.
 
 Download: https://www.virtualbox.org/wiki/Downloads
+
 virtualboxsetup.png
 
 ### Step 2: Set Up VirtualBox
